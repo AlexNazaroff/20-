@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>перенаправление на странице</title>
+</head>
+
+<body>
+    <h1>Driver for Chrome</h1>
+
+    <p>Webdriver WebdriverWebdriverWebdriverWebdriverWebdriverWebdriverWebdriverWebdriverWebdriver</p>
+
+    <button onclick="test_assign()">Test assign</button>
+    <button onclick="test_replace()">test_replace</button>
+    <button onclick="test_href()">test_href</button>
+    <script>
+        function test_assign() {
+            document.location.assign('https://microsoft.com');
+        }
+
+        function test_replace() {
+            document.location.replace('https://google.com');
+        }
+
+        function test_href() {
+
+            document.location.href = 'https://yandex.ru';
+        }
+
+    </script>
+</body>
+
+</html>
